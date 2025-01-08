@@ -19,8 +19,11 @@ public class Main {
         }
 
         Sum sum = new Sum(nums);
+        System.out.println("Найти сумму всех четных чисел в списке");
         System.out.print("Список цифр: " + nums +
-                "\nСумма четных чисел: "); sum.getSum();
+                "\nСумма четных чисел: "); sum.printSum();
         System.out.println(" = " + sum.getSumAll());
+
+        System.out.println("Ответ: " + sum.getSum());
     }
 }
